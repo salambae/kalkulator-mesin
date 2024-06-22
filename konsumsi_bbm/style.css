@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Century Gothic;
+	background: #131417;
+	color: white;
+	height: 95vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	padding: 2rem;
+}
+main {
+	max-width: 350px;
+}
+
+p {
+	letter-spacing: 1.5px;
+}
+tr {
+	letter-spacing: 0.8px;
+}
+a {
+	color: #56BBF9;
+	letter-spacing: 0.8px;
+	text-decoration: none;
+}
+input[type=button] {
+	width: 7em;
+	letter-spacing: 0.8px;
+	appearance: none;
+	border: .2em solid #56BBF9;
+	background: hsl(0 0 0/0);
+	padding: .85em 1.5em;
+	color: #56BBF9;
+	border-radius: 1em;
+	transition: 1s;
+	cursor: pointer;
+	&:hover, &:active {
+		background: #56BBF9;
+		color: #fff;
+	}
+}
+input[type=number] {
+	height: 2.5em;
+	width: 7em;
+	padding: 0.5em;
+	border: .2em solid #56BBF9;
+	border-radius: 1em;
+	text-align: center;
+	color: white;
+	margin: 0;
+	background-color: #131417;
+	-moz-appearance: textfield;
+}
+input[type=number]:focus {
+	border: .2em solid white;
+	outline: 0;
+	transition: 2s;
+	border-radius: 1.5em;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.notifikasi {
+	color: red;
+	letter-spacing: 0.8px;
+	display: none;
+}
+
+a:hover {
+	transition: 0.5s;
+	color: red;
+}

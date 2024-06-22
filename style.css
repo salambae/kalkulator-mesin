@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Century Gothic;
+	background: #131417;
+	color: white;
+	height: 95vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	padding: 2rem;
+	letter-spacing: 1.5px; 
+}
+main {
+	max-width: 350px;
+}
+a {
+	color: #56BBF9;
+	text-decoration: none;
+}
+
+a:hover {
+	transition: 0.5s;
+	color: red;
+}
