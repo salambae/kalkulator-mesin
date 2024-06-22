@@ -12,12 +12,12 @@
 		<h1>Kalkulator Ruang Bakar</h1>
 		<table border="0">
 		<tbody>
-			<tr><td>Kapasitas Mesin</td><td> : </td><td><input type="number" id="kapasitas-mesin"></td><td> mm</td></tr>
+			<tr><td>Kapasitas Mesin</td><td> : </td><td><input type="number" id="kapasitas-mesin"></td><td> cc</td></tr>
 			<tr><td>Rasio Kompresi</td><td> : </td><td><input type="number" id="rasio-kompresi"></td><td> :1</td></tr>
 			<tr><td>Ruang Bakar</td><td> : </td><td style="text-align: center; padding: 0.5em;" id="hasil"> 0 </td><td>cc</td></tr>
-			<tr><td><input type="button" onclick="hitung()" value="Hitung"> <input type="button" onclick="reset()"value="Reset"></td></tr>
 		</tbody>
 		</table>
+		<input type="button" onclick="hitung()" value="Hitung"> <input type="button" onclick="reset()"value="Reset">
 		<div class="notifikasi" id="notifikasi-call"><b>PERHATIAN ! </b>Gagal menghitung, cek nilai masukan apakah terisi atau tidak</div>
 	</main>
 <script src="script.js">
